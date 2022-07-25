@@ -428,20 +428,20 @@ class PlayState extends MusicBeatState
 		resetSpriteCache = false;
 		
 		the3DWorldEffect = new WiggleEffect();
-		the3DWorldEffect.effectType = WiggleEffectType.FLAG;
+		the3DWorldEffect.effectType = WiggleEffectType.DREAMY;
 		the3DWorldEffect.waveAmplitude = 0.1;
 		the3DWorldEffect.waveFrequency = 5;
-		the3DWorldEffect.waveSpeed = 2.25;
+		the3DWorldEffect.waveSpeed = 2;
 
 		the3DWorldEffectWavy = new WiggleEffect();
 		the3DWorldEffectWavy.effectType = WiggleEffectType.WAVY;
-		the3DWorldEffectWavy.waveAmplitude = 0.2;
-		the3DWorldEffectWavy.waveFrequency = 3;
-		the3DWorldEffectWavy.waveSpeed = 1.25;
+		the3DWorldEffectWavy.waveAmplitude = 0.1;
+		the3DWorldEffectWavy.waveFrequency = 5;
+		the3DWorldEffectWavy.waveSpeed = 2;
 
-		screenshader.waveAmplitude = 1;
-		screenshader.waveFrequency = 2;
-		screenshader.waveSpeed = 1;
+		screenshader.waveAmplitude = 0.1;
+		screenshader.waveFrequency = 5;
+		screenshader.waveSpeed = 2;
 		screenshader.shader.uTime.value[0] = new flixel.math.FlxRandom().float(-100000, 100000);
 		screenshader.shader.uampmul.value[0] = 0;
 
