@@ -427,8 +427,7 @@ class PlayState extends MusicBeatState
 		#end
 		resetSpriteCache = false;
 		
-		the3DWorldEffect = new WiggleEffect();
-		the3DWorldEffect.effectType = WiggleEffectType.DREAMY;
+		the3DWorldEffect = new GlitchEffect();
 		the3DWorldEffect.waveAmplitude = 0.1;
 		the3DWorldEffect.waveFrequency = 5;
 		the3DWorldEffect.waveSpeed = 2;
